@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Toon Hop Adventures</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@700;900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              'toon': ['"Fredoka One"', 'cursive'],
+              'body': ['"Nunito"', 'sans-serif'],
+            },
+            colors: {
+              'toon-blue': '#4CC9F0',
+              'toon-purple': '#7209B7',
+              'toon-pink': '#F72585',
+              'toon-yellow': '#FFD60A',
+              'toon-green': '#06D6A0',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        overscroll-behavior: none;
+        touch-action: none;
+        background-color: #1a1a2e;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.560.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
